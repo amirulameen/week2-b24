@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Week 2</title>
+	<style type="text/css">
+		.box1 {
+			background-color: yellow;
+			width: 400px;
+			height: 300px;
+			border: green 5px solid;
+			padding: 10px;
+			margin: 50px;
+		}
+		.box2 {
+			background-color: turquoise;
+			width: 600px;
+			height: 250px;
+			border: red 5px dotted;
+			padding: 100px 75px 50px 52px;
+			margin: 50px 25px;
+		}
+		.box3 {
+			background-color: red;
+			width: 500px;
+			height: 300px;
+			border: green 10px solid;
+			padding: 50px;
+			margin: auto;
+		}
+		div p{
+			background-color: yellow;
+		}
+		div > p{
+			background-color: green;
+		}
+		div + p{
+			background-color: blue;
+		}
+		div ~ p{
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to week 2</h1>
+	<div class="box1">
+		<h2>This is first box</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="box2">
+		<h2>Box 2</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="box3">
+		<h2>This is the third box</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+<hr>
+
+<div>
+	<p>Paragraph 1 in the div.</p>
+	<p>Paragraph 2 in the div.</p>
+	<span><p>Paragraph 3 in the div.</p></span>
+</div>
+	<p>Paragraph 3. not in the div.</p>
+	<p>Paragraph 4. not in the div.
+	</p>
+</body>
+</html>
